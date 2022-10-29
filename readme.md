@@ -7,7 +7,7 @@
 Archivo .env
 ------------------
 1. PORT = numero puerto
-2. DATABASE_URL = mongodb+srv://*<user>*:*<password>*@c*<url>*/DB-Peliculas?retryWrites=true&w=majority
+2. DATABASE_URL = mongodb+srv://*user*:*password*@*url*/DB-Peliculas?retryWrites=true&w=majority
 
 
 ## Agregar pelicula - metodo POST
@@ -15,6 +15,7 @@ Archivo .env
 **POST** localhost:8080/api/pelicula
 
 *body:*
+```JSON
     {
         "titulo": "kill bill vol.1",
         "genero": "drama",
@@ -32,6 +33,7 @@ Archivo .env
         "calificacion": 9,
         "descripcion": "Después de despertar de un coma de cuatro años, un ex asesino se vengó del equipo de asesinos que la traicionaron.",
     }
+```
 
 ## Buscar pelicula por nombre
 
@@ -52,6 +54,7 @@ Archivo .env
 *NOTA:No campos que no se envian no cambian el valor*
 
 *body:*
+```JSON
     {
         "genero": "drama",
         "duracion": 120,
@@ -62,6 +65,7 @@ Archivo .env
         "calificacion": 9,
         "descripcion": "Una adaptación ganadora del Premio de la Academia, de la novela de Mario Puzo acerca de la familia"
     }
+```
 
 ## Peliculas de estudio Ghibli - Api 
 
