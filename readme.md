@@ -1,8 +1,8 @@
 # Api Peliculas CRUD - RUTAS
 
-*NOTA 1 No utilizar espacios, remplazar espacios con "+" en metodos GET, DELETE, PUT*
+*NOTA 1: No utilizar espacios, remplazar espacios con "+" en metodos GET, DELETE, PUT*
 
-*NOTA 2 : Crear metodo .env para probar* 
+*NOTA 2: Crear metodo .env para probar* 
 
 Archivo .env
 ------------------
@@ -51,7 +51,7 @@ Archivo .env
 
 **PUT** localhost:8080/api/pelicula/el+padrino
 
-*NOTA:No campos que no se envian no cambian el valor*
+*NOTA: No campos que no se envian no cambian el valor*
 
 *body:*
 ```JSON
