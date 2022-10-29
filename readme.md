@@ -10,7 +10,7 @@ Archivo .env
 2. DATABASE_URL = mongodb+srv://*user*:*password*@*url*/DB-Peliculas?retryWrites=true&w=majority
 
 
-## Agregar pelicula - metodo POST
+## Agregar pelicula - metodo POST 
 
 **POST** localhost:8080/api/pelicula
 
